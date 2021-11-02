@@ -1,11 +1,9 @@
 package com.TSI.Movie;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.ArrayList;
 @Entity
+@Table
 public class Movie {
     @Id
     @GeneratedValue(strategy= GenerationType.TABLE)
