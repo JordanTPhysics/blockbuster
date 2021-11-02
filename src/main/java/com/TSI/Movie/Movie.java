@@ -70,9 +70,6 @@ public class Movie {
         this.cast = cast;
     }
 
-//public static String getJsonObjectOfMovie(){
-       // return " \"title\" " + title + "\"ReleaseYr " +
-       //     "\" " + releaseYr +"\"length\" " + length + "\"genre\" " + genre +"\"cast\"" + cast;
 
 
 
