@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3606e7f0-c6c2-43fc-baba-9eae51e1e22e" name="Changes" comment="">
+    <list default="true" id="bb39bc9d-c431-4fd8-8e66-0cb35948710c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/films/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/films/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,20 @@
       <recent name="com.breezy.films" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MovieApplication">
+    <configuration name="MovieApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.TSI.Movie.MovieApplication" />
+      <module name="Movie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TSI.Movie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilmsApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="films" />
       <extension name="coverage">
@@ -59,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieApplication" />
         <item itemvalue="JUnit.FilmsApplicationTests" />
       </list>
     </recent_temporary>
@@ -73,5 +89,13 @@
       <updated>1635515812648</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Movie$MovieApplication.ic" NAME="MovieApplication Coverage Results" MODIFIED="1635785774395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.TSI.Movie.*</FILTER>
+    </SUITE>
   </component>
 </project>
