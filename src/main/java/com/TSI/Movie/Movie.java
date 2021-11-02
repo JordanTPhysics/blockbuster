@@ -3,7 +3,7 @@ package com.TSI.Movie;
 import javax.persistence.*;
 import java.util.ArrayList;
 @Entity
-@Table
+@Table(name = "sakila")
 public class Movie {
     @Id
     @GeneratedValue(strategy= GenerationType.TABLE)

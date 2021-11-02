@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb39bc9d-c431-4fd8-8e66-0cb35948710c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springlaunch/controller/FilmController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/TSI/Movie/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TSI/Movie/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/TSI/Movie/MovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TSI/Movie/MovieApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="bb39bc9d-c431-4fd8-8e66-0cb35948710c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
