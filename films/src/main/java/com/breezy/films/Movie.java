@@ -13,6 +13,8 @@ public class Movie {
     private int rating;
     private int releaseYr;
 
+
+
     public String getTitle() {
         return title;
     }

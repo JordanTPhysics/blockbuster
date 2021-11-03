@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.*;
 public class MovieApplication {
 	@Autowired
 	private MovieRepository movieRepository;
+	@Autowired
+	private ActorRepository actorRepository;
 
 	public static void main(String[] args) {
 		SpringApplication.run(MovieApplication.class, args);
@@ -22,12 +24,13 @@ public class MovieApplication {
 	@GetMapping("/moviedata")
 	public Movie movieData() {
 		Movie starWars3 = new Movie("Revenge of the Sith", 2005, 126, "Action");
-		return starWars3;
+		Movie starWars4 = new Movie("A new Hope",1977,135,"Adventure");
+		return starWars4;
+
 	}
 
-	@GetMapping("/all")
-	public @ResponseBody
-	Iterable<Movie> getAllUsers() {
+	@GetMapping("/allmovies")
+	public @ResponseBody Iterable<Movie> getAllMovies() {
 		return movieRepository.findAll();
 	}
 
@@ -40,6 +43,25 @@ public class MovieApplication {
 		Movie savedMovie = new Movie(title, releaseYr, length, genre);
 		movieRepository.save(savedMovie);
 		return "Saved";
-
 	}
-}
+
+	@GetMapping("/actordata")
+	public Actor actorData() {
+			Actor tomCruise = new Actor(1, "Tom", "Cruise");
+			return tomCruise;
+		}
+
+	@GetMapping("/allactors")
+	public @ResponseBody Iterable<Actor> getAllActors() {
+		return actorRepository.findAll();
+		}
+
+	@PostMapping("/addActor")
+	public @ResponseBody
+	String addAnActor(@RequestParam int actorId, @RequestParam String firstName, @RequestParam String lastName)
+		{
+		Actor savedActor = new Actor(actorId, firstName, lastName);
+		actorRepository.save(savedActor);
+		return "Saved";
+		}
+	}

@@ -3,11 +3,11 @@ package com.TSI.Movie;
 import javax.persistence.*;
 import java.util.ArrayList;
 @Entity
-@Table(name = "sakila")
+@Table(name = "film", schema = "sakila")
 public class Movie {
     @Id
     @GeneratedValue(strategy= GenerationType.TABLE)
-    private int id;
+    private int film_id;
 
     private String title;
     private int releaseYr;
@@ -48,9 +48,9 @@ public class Movie {
         this.length = length;
     }
 
-    public int getId(){return id;}
+    public int getFilm_id(){return film_id;}
 
-    public void setId(){this.id = id; }
+    public void setFilm_id(){this.film_id = film_id; }
 
     public String getGenre() {
         return genre;
@@ -67,9 +67,5 @@ public class Movie {
     public void setCast(ArrayList<Object> cast) {
         this.cast = cast;
     }
-
-
-
-
 
 }
